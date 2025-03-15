@@ -49,11 +49,11 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
 
-### James Doe
+### Nandita Selvaraju
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/nanditaselvaraju.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/nanditaselvaraju)]
 [[portfolio](team/johndoe.md)]
 
 * Role: Developer
