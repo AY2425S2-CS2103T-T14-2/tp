@@ -9,7 +9,7 @@
         "project-team": "Project team",
         "alexander-oh": "Alexander Oh",
         "zhao-wenrui": "Zhao Wenrui",
-        "johnny-doe": "Johnny Doe",
+        "zechary": "Zechary",
         "ang-jo-zee": "Ang Jo Zee",
         "nandita-selvaraju": "Nandita Selvaraju"
       },
@@ -76,6 +76,21 @@
       "headingKeywords": {}
     },
     {
+      "src": "Features.md",
+      "title": "Features",
+      "headings": {
+        "features-of-the-sharkives": "🚀 Features of The Sharkives",
+        "loan-tracking": "💰 Loan Tracking",
+        "payment-reminders": "📅 Payment Reminders",
+        "related-contacts": "🏠 Related Contacts",
+        "summary-dashboard": "📊 Summary Dashboard",
+        "search-and-filtering": "🔎 Search and Filtering",
+        "secure-and-private": "🔐 Secure and Private",
+        "how-these-features-help-you": "🎯 How These Features Help You"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "Logging.md",
       "title": "Logging guide",
       "headings": {
@@ -107,9 +122,10 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "ab-3-user-guide": "AB-3 User Guide",
+        "the-sharkives-user-guide": "🦈 The Sharkives User Guide",
         "quick-start": "Quick start",
         "features": "Features",
+        "adding-a-loan-loan": "Adding a Loan : loan",
         "viewing-help-help": "Viewing help : help",
         "adding-a-person-add": "Adding a person: add",
         "listing-all-persons-list": "Listing all persons : list",
