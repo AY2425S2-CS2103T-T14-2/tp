@@ -79,7 +79,7 @@
       "src": "Features.md",
       "title": "Features",
       "headings": {
-        "features-of-the-sharkives": "🚀 Features of The Sharkives",
+        "features-of-sharkster": "🚀 Features of Sharkster",
         "loan-tracking": "💰 Loan Tracking",
         "payment-reminders": "📅 Payment Reminders",
         "related-contacts": "🏠 Related Contacts",
@@ -125,9 +125,12 @@
         "the-sharkster-user-guide": "🦈 The Sharkster User Guide",
         "quick-start": "Quick start",
         "features": "Features",
+        "adding-a-person-add": "Adding a person: add",
         "adding-a-loan-loan": "Adding a Loan : loan",
         "sorting-the-borrowers-sort": "Sorting the borrowers: sort",
+        "filtering-the-borrowers-filter": "Filtering the borrowers: filter",
         "recording-a-payment-pay": "Recording a Payment: pay",
+        "deleting-a-loan-delete": "Deleting a Loan: delete",
         "deleting-a-loanee-delete": "Deleting a Loanee: delete",
         "listing-all-loanees-list": "Listing all Loanees: list",
         "editing-loanee-details-edit": "Editing Loanee Details: edit",
@@ -145,7 +148,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "sharkster": "Sharkster"
       },
       "headingKeywords": {}
     },
