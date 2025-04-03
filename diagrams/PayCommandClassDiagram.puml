@@ -1,0 +1,63 @@
+@startuml
+class Command {
+    <<abstract>>
+    + execute(model: Model): CommandResult
+}
+
+class PayCommand {
+    - targetIndex: Index
+    - loanIndex: int
+    - paymentType: PaymentType
+    - amount: Float
+    - months: Integer
+
+    + MESSAGE_USAGE: String
+    + MESSAGE_PAYMENT_SUCCESS: String
+    + MESSAGE_INVALID_LOAN_INDEX: String
+    + MESSAGE_INVALID_AMOUNT: String
+    + MESSAGE_INVALID_MONTHS: String
+
+    + PayCommand(targetIndex: Index, loanIndex: int, amount: float)
+    + PayCommand(targetIndex: Index, loanIndex: int, months: int)
+    + PayCommand(targetIndex: Index, loanIndex: int)
+    + execute(model: Model): CommandResult
+    + equals(other: Object): boolean
+    + toString(): String
+}
+
+enum PaymentType {
+    AMOUNT
+    MONTHS
+    ALL
+}
+
+interface Parser<T> {
+    <<interface>>
+    + parse(userInput: String): T
+}
+
+class PayCommandParser {
+    - VALIDATION_REGEX: String
+
+    + parse(args: String): PayCommand
+}
+
+Command <|-- PayCommand
+Parser <|.. PayCommandParser
+PayCommandParser ..> PayCommand : creates
+PayCommand o-- PaymentType
+
+note top of PayCommand
+  Supports 3 payment modes:
+  1. Pay by amount (e.g., 100.00)
+  2. Pay by months (e.g., 3M)
+  3. Pay all remaining balance
+end note
+
+note right of PayCommandParser
+  Parses user input into:
+  - Person index
+  - Loan index
+  - Payment amount/mode
+end note
+@enduml

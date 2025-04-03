@@ -1,68 +1,65 @@
 @startuml
+class Loan {
+    # principal: float
+    # amountOwed: float
+    # amtPaid: float
+    # interest: float
+    # dueDate: LocalDate
+    # dateLastPaid: LocalDate
+    # dateCreated: LocalDate
+    # isPaid: boolean
 
-abstract class Loan {
-    + static final String DATE_MESSAGE_CONSTRAINTS
-    + static final String INTEREST_MESSAGE_CONSTRAINTS
-    + static final String AMOUNT_MESSAGE_CONSTRAINTS
-    + static final int MONTHLY_DUE_DATE
-    + static final String UNAVAILABLE_DATE
-    + static final int NUMBER_OF_FIELDS
-    + static final String VALIDATION_REGEX
-    - static final List<DateTimeFormatter> DATE_FORMATTERS
-
-    + final float principal
-    - float amountOwed
-    - float amtPaid
-    - float interest
-    - LocalDate dueDate
-    - LocalDate dateLastPaid
-    + final LocalDate dateCreated
-    - Boolean isPaid
-
-    + Loan(String strPrincipal, String strInterest, String dueDate)
-    + Loan(String strPrincipal, String strAmtPaid, String strInterest, String strDueDate, String strDateLastPaid, String strDateCreated, String strIsPaid)
-
-    + static LocalDate toValidLocalDate(String dateString)
-    + static boolean isValidDueDate(LocalDate dueDate, LocalDate currentDate)
-    + static boolean isValidLoan(Loan loan)
-    + abstract void pay(float amt) throws IllegalValueException
-    + void payByMonths(int months) throws IllegalValueException
-    + abstract float getPaymentDifference()
-    + abstract float getLoanValue()
-    + boolean isOverDue()
-    + boolean missedInstalments()
-    + int getMissedInstalmentsMonths()
-    + float getMissedInstalmentsMonthsPrecise()
-    + float getMonthlyAveragePrincipal()
-    + int getDaysSinceLastPaid()
-    + int getMonthsSinceLastPaid()
-    + int getMonthsSinceLoan()
-    + int getMonthsUntilDueDate()
-    + int getLoanLengthMonths()
-    + int getLoanLengthDays()
-    + String toString()
-    + String toSaveString()
-    + static Loan stringToLoan(String loanStr)
-    + static boolean isValidLoanString(String loanStr)
-    + boolean equals(Object other)
-    + int hashCode()
-    + float getAmtPaid()
-    + float getInterest()
-    + LocalDate getDueDate()
-    + LocalDate getDateLastPaid()
-    + LocalDate getDateCreated()
-    + boolean isPaid()
-    + float getPrincipal()
-    + void incrementAmtPaid(float pay)
-    + void setDateLastPaid(LocalDate dateLastPaid)
-    + void setIsPaid(boolean isPaid)
-    + float getAmountOwed()
-    + float getRemainingOwed()
-    + void setAmountOwed(float amountOwed)
-    + void setDueDate(String dueDate)
-    + void updateIsPaid()
-    + abstract String getName()
-    + abstract float getMonthlyInstalmentAmount()
+    + {abstract} pay(amt: float)
+    + {abstract} getPaymentDifference(): float
+    + {abstract} getLoanValue(): float
+    + {abstract} getMonthlyInstalmentAmount(): float
+    + {abstract} getName(): String
+    + isOverDue(): boolean
+    + missedInstalments(): boolean
+    + getRemainingOwed(): float
+    + getMonthsUntilDueDate(): int
+    + getLoanLengthMonths(): int
+    + toSaveString(): String
 }
 
+class SimpleInterestLoan {
+    + LOAN_TYPE: String = "S"
+
+    + getMonthlyInterest(): float
+    + getMonthlyInstalmentAmount(): float
+    + getLoanValue(): float
+    + getPaymentDifference(): float
+    + pay(payment: float)
+    + getName(): String
+}
+
+class CompoundInterestLoan {
+    + LOAN_TYPE: String = "C"
+
+    + getMonthlyInterest(): float
+    + getMonthlyInstalmentAmount(): float
+    + getLoanValue(): float
+    + getPaymentDifference(): float
+    + pay(payment: float)
+    + getName(): String
+}
+
+Loan <|-- SimpleInterestLoan
+Loan <|-- CompoundInterestLoan
+
+note top of Loan
+  Common loan attributes and behaviors
+  Abstract methods must be implemented
+  by child classes
+end note
+
+note left of SimpleInterestLoan
+  Simple interest calculation:
+  Interest = P * r * t
+end note
+
+note right of CompoundInterestLoan
+  Compound interest calculation:
+  A = P * (1 + r)^t
+end note
 @enduml
