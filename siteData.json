@@ -60,10 +60,15 @@
         "use-cases": "Use cases",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
-        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
-        "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for Manual Testing",
+        "launch-and-shutdown": "Launch and Shutdown",
+        "deleting-a-person": "Deleting a Person",
+        "saving-data": "Saving Data",
+        "sort-command": "Sort Command",
+        "filterloan-command": "FilterLoan Command",
+        "appendix-effort": "Appendix: Effort",
+        "challenges": "Challenges:",
+        "achievements": "Achievements:"
       },
       "headingKeywords": {}
     },
