@@ -124,7 +124,6 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
         "the-sharkives-user-guide": "🦈 The Sharkives User Guide",
         "quick-start": "Quick start",
