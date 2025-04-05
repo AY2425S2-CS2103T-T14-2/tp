@@ -69,7 +69,7 @@ public class LoanFilterCommand extends Command {
     @Override
     public CommandResult execute(Model model) throws CommandException {
         requireNonNull(model);
-        String result = "";
+        String result = "Filtered by these predicates: \n";
 
         // case for clearing
         if (clear) {
