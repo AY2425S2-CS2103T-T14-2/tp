@@ -8,7 +8,7 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""
 with(this){return _c('h1',{attrs:{"id":"the-sharkives-user-guide"}},[_v("🦈 The Sharkives User Guide"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#the-sharkives-user-guide","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The Sharkives is a "),_c('strong',[_v("desktop application for managing loan records")]),_v(", optimized for use via a "),_c('strong',[_v("Command Line Interface (CLI)")]),_v(" while still offering a "),_c('strong',[_v("Graphical User Interface (GUI)")]),_v(". If you can type fast, The Sharkster helps you manage loans, repayments, and outstanding debts "),_c('strong',[_v("more efficiently")]),_v(" than traditional GUI apps.")])}
+with(this){return _c('p',[_v("The Sharkives is a "),_c('strong',[_v("desktop application for managing loan records")]),_v(", optimized for use via a "),_c('strong',[_v("Command Line Interface (CLI)")]),_v(" while still offering a "),_c('strong',[_v("Graphical User Interface (GUI)")]),_v(". If you can type fast, The Sharkives helps you manage loans, repayments, and outstanding debts "),_c('strong',[_v("more efficiently")]),_v(" than traditional GUI apps.")])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"table-of-contents"}},[_v("Table of Contents"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#table-of-contents","onclick":"event.stopPropagation()"}})])}
@@ -248,6 +248,6 @@ with(this){return _c('h2',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{stat
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("predicate")]),_v(": An operation which returns true or false.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("command terminal")]),_v(": Called \"Terminal\" on both Windows and Mac, can be searched from the search bar.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("GUI")]),_v(": Stands for \"Graphical User Interface\", essentially the parts of the application that you see.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 1:28:05 GMT+8]\n    ")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 1:32:33 GMT+8]\n    ")])])])}
 }];
   
