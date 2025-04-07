@@ -434,6 +434,6 @@ with(this){return _c('h3',{attrs:{"id":"achievements"}},[_v("Achievements:"),_c(
 with(this){return _c('ul',[_c('li',[_v("Built fully functional "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("pay")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("filterLoan")]),_v(", and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("sort")]),_v(" commands")]),_v(" "),_c('li',[_v("Enhanced UI responsiveness and modularity")]),_v(" "),_c('li',[_v("0 reused code: All logic and data structures were built from scratch")]),_v(" "),_c('li',[_v("Edited existing code to fit our requirements")]),_v(" "),_c('li',[_v("Completely revamped and customized UI to fit our theme")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 7 Apr 2025, 11:15:08 GMT+8]\n    ")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 7 Apr 2025, 12:01:04 GMT+8]\n    ")])])])}
 }];
   
