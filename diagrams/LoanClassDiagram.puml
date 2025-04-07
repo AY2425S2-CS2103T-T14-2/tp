@@ -1,4 +1,6 @@
 @startuml
+!include style.puml
+
 class Loan {
     # principal: float
     # amountOwed: float
