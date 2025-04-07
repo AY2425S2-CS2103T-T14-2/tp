@@ -11,7 +11,7 @@ with(this){return _c('h1',{attrs:{"id":"setting-up-and-getting-started"}},[_v("S
 with(this){return _c('h2',{attrs:{"id":"setting-up-the-project-in-your-computer"}},[_v("Setting up the project in your computer"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-the-project-in-your-computer","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("First, "),_c('strong',[_v("fork")]),_v(" this repo, and "),_c('strong',[_v("clone")]),_v(" the fork into your computer.")])}
+with(this){return _c('p',[_v("First, "),_c('strong',[_v("fork")]),_v(" "),_c('a',{attrs:{"href":"https://github.com/AY2425S2-CS2103T-T14-2/tp"}},[_v("this repo")]),_v(", and "),_c('strong',[_v("clone")]),_v(" the fork into your computer.")])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_c('strong',[_v("Configure the JDK")]),_v(": Follow the guide "),_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/intellijJdk.html"}},[_c('em',[_v("[se-edu/guides] IDEA: Configuring the JDK")])]),_v(" to ensure Intellij is configured to use "),_c('strong',[_v("JDK 17")]),_v(".")])}
@@ -41,6 +41,6 @@ with(this){return _c('li',[_c('p',[_c('strong',[_v("Learn the design")])]),_v(" 
 with(this){return _c('li',[_c('p',[_c('strong',[_v("Do the tutorials")]),_v("\nThese tutorials will help you get acquainted with the codebase.")]),_v(" "),_c('ul',[_c('li',[_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/ab3TracingCode.html"}},[_v("Tracing code")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/ab3AddRemark.html"}},[_v("Adding a new command")])]),_v(" "),_c('li',[_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/ab3RemovingFields.html"}},[_v("Removing fields")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 2:32:29 GMT+8]\n    ")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("\n      ["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 2:35:18 GMT+8]\n    ")])])])}
 }];
   
