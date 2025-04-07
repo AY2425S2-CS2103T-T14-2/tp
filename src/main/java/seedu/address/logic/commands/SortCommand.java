@@ -33,8 +33,8 @@ public class SortCommand extends Command {
         + DESC;
 
 
-    private final String sort;
-    private final String order;
+    protected final String sort;
+    protected final String order;
 
     /**
     * Construct a sort command

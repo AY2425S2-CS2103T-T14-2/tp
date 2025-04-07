@@ -37,9 +37,9 @@ public class PayCommand extends Command {
 
     private final Index targetIndex;
     private final int loanIndex;
-    private final PaymentType paymentType;
-    private final Float amount; //nullable if paying by months
-    private final Integer months; //nullable if paying by amount
+    protected final PaymentType paymentType;
+    protected final Float amount; //nullable if paying by months
+    protected final Integer months; //nullable if paying by amount
 
     /**
      * Enum for payment type
