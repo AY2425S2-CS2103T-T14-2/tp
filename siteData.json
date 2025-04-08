@@ -68,6 +68,7 @@
         "sort-command": "Sort Command",
         "filterloan-command": "FilterLoan Command",
         "loan-command": "Loan Command",
+        "pay-command": "Pay Command",
         "appendix-effort": "Appendix: Effort",
         "challenges": "Challenges:",
         "achievements": "Achievements:"
